@@ -19,6 +19,16 @@ body {
     white-space: nowrap;
     overflow: hidden;  
 }
+.portfolio-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0; 
+    white-space: nowrap;
+    overflow: hidden;     
+}
 
 /*~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~*/
 .header-logo {
@@ -180,4 +190,33 @@ color: rgba(255, 255, 255, 0.6);
 
 
 
-/*~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~PORTFOLIO~~~~~~~~~~~~*/
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+background-color: #188CE8;
+color: #FFFFFF }
+
+.web-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;   
+}
+.web-pre-title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
